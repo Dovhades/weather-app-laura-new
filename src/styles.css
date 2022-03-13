@@ -1,0 +1,91 @@
+body {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  color: #3281ce;
+}
+h2 {
+  color: #3281ce;
+  text-align: left;
+}
+
+h3 {
+  color: #42a5f5;
+  font-size: 20px;
+  text-align: left;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+.weather-info {
+  line-height: 1.9;
+}
+
+.units {
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+}
+.main-temperature {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+.min-max-temperature {
+  text-align: center;
+}
+#submit-button {
+  background: #42a5f5;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  transition: all 150ms ease-in-out;
+}
+
+#submit-button:hover {
+  background: #3281ce;
+}
+
+.get-location {
+  background: #3281ce;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  transition: all 150ms ease-in-out;
+}
+
+.get-location:hover {
+  background: #42a5f5;
+}
+
+#dayInput {
+  font-weight: bold;
+  color: #42a5f5;
+}
+
+#timeInput {
+  font-style: italic;
+  color: #42a5f5;
+}
+
+#celsius {
+  text-decoration-line: none;
+}
+#fahrenheit {
+  text-decoration-line: none;
+}
+
+.gitHub {
+  text-align: center;
+  font-size: 10px;
+}
