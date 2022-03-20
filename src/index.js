@@ -77,6 +77,7 @@ function getForecast(coordinates) {
 }
 
 
+
 // Search for a City
 
 let h2 = document.querySelector("h2");
@@ -138,6 +139,12 @@ function getLocation(position) {
   let apiEndpoint = "https://api.openweathermap.org/data/2.5/weather";
   let positionUrl = `${apiEndpoint}?lat=${latitude}&lon=${longitude}&units=${unit}&appid=${apiKey}`;
   axios.get(positionUrl).then(displayTemp);
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function searchLocation(event) {
