@@ -35,7 +35,11 @@ ul {
   border-radius: 5px;
 }
 
-.weather-info {
+.date-info {
+  line-height: 1.9;
+}
+
+.air-info {
   line-height: 1.9;
 }
 
