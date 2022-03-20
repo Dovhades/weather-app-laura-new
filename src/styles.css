@@ -7,13 +7,18 @@ header {
   text-align: center;
   color: #3281ce;
 }
-h2 {
+h1 {
   color: #3281ce;
+  text-align: center;
+  font-size: 38px;
+}
+h2 {
+  color: white;
   text-align: left;
 }
 
 h3 {
-  color: #42a5f5;
+  color: white;
   font-size: 20px;
   text-align: left;
 }
@@ -22,16 +27,18 @@ ul {
   list-style-type: none;
 }
 
+.city {
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  color: white;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
 .weather-info {
   line-height: 1.9;
 }
 
-.units {
-  font-size: 12px;
-  position: absolute;
-  right: 5px;
-  top: 5px;
-}
 .container {
   display: block;
   margin: 0 auto;
@@ -70,12 +77,12 @@ ul {
 
 #dayInput {
   font-weight: bold;
-  color: #42a5f5;
+  color: white;
 }
 
 #timeInput {
   font-style: italic;
-  color: #42a5f5;
+  color: white;
 }
 
 #celsius {
