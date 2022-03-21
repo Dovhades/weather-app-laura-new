@@ -18,7 +18,7 @@
           <header><h1>What's the weather like?</h1>
     <form id = "searchForm">
       <div class="mb-3">
-        <input type="text" id="searchYourCity" placeholder="Enter a city" />  
+        <input type="text" id="searchYourCity" placeholder="Enter a city"  autocomplete="off" />  
         <input type="submit" id="submit-button" value="Search">
         <button class="get-location">Current location</button>
       </div>
@@ -41,7 +41,7 @@
         <div class="col-4">
           <ul>
             <li class="air-info">Humidity: <span id="humidity"></span>%</li>
-            <li class="air-info">Wind: <span id="wind"></span> m/h</li>  
+            <li class="air-info">Wind: <span id="wind"></span> km/h</li>  
           </ul>
         </div>
         <div class="col-4">
@@ -52,8 +52,6 @@
         </div>
         <div class="weather-forecast" id="forecast">
         </div>
-        
-
         </div>
     </section>
     
